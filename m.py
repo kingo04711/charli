@@ -411,13 +411,13 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Admin Commands Are Here!!:
 
-💥 /add <userId> : Aᴅᴅ Usᴇʀ.
-💥 /remove <userid> Rᴇᴍᴏᴠᴇ Usᴇʀ.
-💥 /allusers : Aᴜᴛʜᴏʀɪsᴇᴅ Usᴇʀs Lɪsᴛs.
-💥 /logs : Aʟʟ Usᴇʀs Lᴏɢs.
-💥 /broadcast : Bʀᴏᴀᴅ Cᴀsᴛ A Mᴇssᴀɢᴇ.
-💥 /clearlogs : Cʟᴇᴀʀ Tʜᴇ Lᴏɢs Fɪʟᴇ.
-💥 /clearusers : Cʟᴇᴀʀ ᴛʜᴇ ᴜsᴇʀs Fɪʟᴇ.
+ /add <userId> : Aᴅᴅ Usᴇʀ.
+ /remove <userid> Rᴇᴍᴏᴠᴇ Usᴇʀ.
+ /allusers : Aᴜᴛʜᴏʀɪsᴇᴅ Usᴇʀs Lɪsᴛs.
+ /logs : Aʟʟ Usᴇʀs Lᴏɢs.
+ /broadcast : Bʀᴏᴀᴅ Cᴀsᴛ A Mᴇssᴀɢᴇ.
+ /clearlogs : Cʟᴇᴀʀ Tʜᴇ Lᴏɢs Fɪʟᴇ.
+ /clearusers : Cʟᴇᴀʀ ᴛʜᴇ ᴜsᴇʀs Fɪʟᴇ.
 '''
     bot.reply_to(message, response)
 
