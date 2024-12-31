@@ -418,7 +418,7 @@ def welcome_plan(message):
  /broadcast : Bʀᴏᴀᴅ Cᴀsᴛ A Mᴇssᴀɢᴇ.
  /clearlogs : Cʟᴇᴀʀ Tʜᴇ Lᴏɢs Fɪʟᴇ.
  /clearusers : Cʟᴇᴀʀ ᴛʜᴇ ᴜsᴇʀs Fɪʟᴇ.
-'''
+
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['broadcast'])
