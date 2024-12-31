@@ -394,12 +394,12 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
-Vip 🌟 :
+Vip  :
 -> Attack Time : 300 (S)
 > After Attack Limit : 10 sec
 -> Concurrents Attack : 5
 
-Pr-ice List💸 :
+Pr-ice List :
 Day-->40 Rs
 Week-->200 Rs
 Month-->1000 Rs
@@ -427,7 +427,7 @@ def broadcast_message(message):
     if user_id in admin_id:
         command = message.text.split(maxsplit=1)
         if len(command) > 1:
-            message_to_broadcast = "⚠️ Message To All Users By Admin:\n\n" + command[1]
+            message_to_broadcast = " Message To All Users By Admin:\n\n" + command[1]
             with open(USER_FILE, "r") as file:
                 user_ids = file.read().splitlines()
                 for user_id in user_ids:
@@ -435,11 +435,11 @@ def broadcast_message(message):
                         bot.send_message(user_id, message_to_broadcast)
                     except Exception as e:
                         print(f"Failed to send broadcast message to user {user_id}: {str(e)}")
-            response = "Broadcast Message Sent Successfully To All Users 👍."
+            response = "Broadcast Message Sent Successfully To All Users ."
         else:
-            response = "🤖 Please Provide A Message To Broadcast."
+            response = " Please Provide A Message To Broadcast."
     else:
-        response = "Oɴʟʏ Bᴏᴛ Kᴇ Pɪᴛᴀᴊɪ Cᴀɴ Rᴜɴ Tʜɪs😡."
+        response = "Oɴʟʏ Bᴏᴛ Kᴇ Pɪᴛᴀᴊɪ Cᴀɴ Rᴜɴ Tʜɪs."
 
     bot.reply_to(message, response)
 
