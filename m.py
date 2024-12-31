@@ -381,7 +381,7 @@ def welcome_start(message):
 @bot.message_handler(commands=['rules'])
 def welcome_rules(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name} Please Follow These Rules ⚠️:
+    response = f'''{user_name} Please Follow These Rules :
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
